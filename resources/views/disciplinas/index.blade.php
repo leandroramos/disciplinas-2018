@@ -1,3 +1,5 @@
+@extends('layouts.master')
+
 <p>
 	<a href="disciplinas/create">Cadastrar nova disciplina</a>
 </p>

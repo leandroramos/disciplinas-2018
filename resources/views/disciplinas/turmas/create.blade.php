@@ -1,3 +1,5 @@
+@extends('layouts.master')
+
 <form method="POST" action="/disciplinas/{{ $disciplina_id }}/turmas">
     {{ csrf_field() }}
 
